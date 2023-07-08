@@ -9,7 +9,7 @@ import kotlinx.parcelize.Parcelize
 @Entity(tableName = "barang-table")
 data class barang (
     @PrimaryKey(autoGenerate = true)
-    val Namabarang: String,
+    val Namabarang: Int,
     val Jumlahbarang: Int=0,
     val Hargabarang: Int=0,
 ) : Parcelable
